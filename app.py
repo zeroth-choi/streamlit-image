@@ -4,7 +4,7 @@ import qrcode
 st.sidebar.title('QR code 생성하기')
 
 
-qr_data = st.sidebar.text_area('글을 입력하세요')
+qr_data = st.sidebar.text_area('글을 입력하세요 (공백 포함 1000자 이내)')
 create_button = st.sidebar.button("QR code 생성")
 
 if create_button:
